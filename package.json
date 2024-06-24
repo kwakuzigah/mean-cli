@@ -69,7 +69,7 @@
     "url": "https://github.com/linnovate/mean-cli.git"
   },
   "scripts": {
-    "preinstall": "node ./scripts/preinstall",
+    "preinstall": "npm ls --global --json --depth 0",
     "test": "node node_modules/.bin/mocha test/**/*.js -R spec"
   }
 }
